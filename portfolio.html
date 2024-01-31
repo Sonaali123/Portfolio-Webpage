@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sonali P Sunny</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #0a1638;
+            padding: 0.5rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #111010;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1px;
+        }
+
+        header {
+            width: 20%;
+            margin: 20px 20px;
+            background-color: #0a1638;
+            padding: 20px;
+            color: #fff;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row; 
+            flex-wrap: wrap; 
+            width: 100%;
+            padding: 20px;
+        }
+
+        section {
+            flex: 1;
+            margin-right: 20px;
+            margin-bottom: 20px; 
+            background-color: #f0f0f0; 
+            padding: 20px;
+        }
+
+        section:last-child {
+            margin-right: 0;
+        }
+
+        footer {
+            background-color: #0a1638;
+            color: #fff;
+            text-align: center;
+            padding: 0.05rem;
+            width: 100%;
+            position:fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a style="color:rgb(255, 254, 254)" href="index.html">Home</a></li>
+            <li><a style="color:rgb(255, 255, 255)" href="about.html">About Me</a></li>
+            <li><a style="color:rgb(255, 253, 253)" href="portfolio.html">Portfolio</a></li>
+            <li><a style="color:rgb(255, 255, 255)" href="skills.html">Skills</a></li>
+            <li><a style="color:rgb(255, 255, 255)" href="testimonials.html">Testimonials</a></li>
+            <li><a style="color:rgb(255, 255, 255)" href="resume.html">Resume</a></li>
+            <li><a style="color:rgb(255, 255, 255)" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: left;">Portfolio</h1>
+    </header>
+
+    <main>
+        <section class="project">
+            <h2 style="color: rgb(16, 5, 61);">Project 1: Plastic Segregation Tool</h2>
+            <img src="Downloads/project1.png" alt="[Project 1 Image]" class="project-image" width="100%">
+            <p>
+                A cutting-edge AI tool that identifies the different types of plastics uploaded via image recognition using modelling.
+            </p>
+            <a href="[Link to Project 1]" target="_blank" class="project-link">View Project</a>
+        </section>
+
+        <section class="project">
+            <h2 style="color: rgb(16, 5, 61);">Project 2: Basic Calculator</h2>
+            <img src="Downloads/simple_calculator.png" alt="[Project 2 Image]" class="project-image"  width="100%">
+            <p>
+                A basic calculator made using Python Language.
+            </p>
+            <a href="[Link to Project 2]" target="_blank" class="project-link">View Project</a>
+        </section>
+
+        <section class="project">
+            <h2 style="color: rgb(16, 5, 61);">Project 3: Weekend Planner</h2>
+            <img src="Downloads/project3.jpeg" alt="[Project 3 Image]" class="project-image"  width="100%">
+            <p>
+                An AI-tool for efficient plannings and outings using modelling.
+            </p>
+            <a href="[Link to Project 3]" target="_blank" class="project-link">View Project</a>
+        </section>
+
+        <section class="project-gallery">
+            
+            <img src="project1.png" alt="[Project 1 Image]" class="gallery-image" width="100%">
+            <img src="simple_calculator.png" alt="[Project 2 Image]" class="gallery-image" width="100%">
+            <img src="project3.jpeg" alt="[Project 3 Image]" class="gallery-image" width="100%">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sonali Pashnath Sunny. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+
+body {
+    background-image: url(gray-abstract-wireframe-technology-background.jpg);
+    background-size: 100%;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #0a1638;
+    padding: 0.5rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #111010;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #0a1638;
+    color: #fff;
+    text-align: center;
+    padding: 0.05rem;
+  }
+  
